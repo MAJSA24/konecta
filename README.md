@@ -1,4 +1,4 @@
-El archivo konecta.zip contiene los archivos fuentes
+El archivo carpeta contiene los archivos fuentes
 
 El archivo factory_konecta.sql contiene la base de datos
 

@@ -1,0 +1,2 @@
+# konecta
+Aplicativo cafetería

@@ -1,4 +1,4 @@
-El archivo carpeta contiene los archivos fuentes
+La carpeta konecta contiene los archivos fuentes
 
 El archivo factory_konecta.sql contiene la base de datos
 

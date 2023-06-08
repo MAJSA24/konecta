@@ -1,0 +1,11 @@
+PRODUCTO CON MAYOR STOCK
+--------------------------------------------------
+SELECT `id`,`nombre`, MAX(`stock`) as stock_mayor FROM `producto` 
+
+
+PRODUCTO MAS VENDIDO
+---------------------------------------------
+SELECT producto.nombre, SUM(venta.cantidad) as cantidad
+FROM venta JOIN producto ON venta.producto = producto.id
+GROUP BY producto.id
+ORDER BY SUM(venta.cantidad) DESC LIMIT 1;

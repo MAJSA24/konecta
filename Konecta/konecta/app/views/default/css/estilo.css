@@ -1,0 +1,280 @@
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ background-color:#FFFFFF;
+}
+
+/* Maquetaci�n */
+#wrapper { 
+ margin: 0 auto;
+ width: 100%;
+ 
+}
+
+#header {
+ width: 100%;
+ float: left;
+ height: 90px;
+ background:#FFFFFF;
+ border-bottom:1px solid #D9E3E5;	
+}
+
+#leftcolumn { 
+  height:inherit;
+ width: 20%;
+ float: left;
+}
+
+#content { 
+ float: left;
+ color: #333;
+ background:#CCCCCC;
+ width:76%;
+ height:490px;
+ display: inline;
+ border-radius:15px;
+
+}
+
+
+.t{
+	font-size:18px; font-weight:bold; margin:10px 0 10px 0; padding-left:20px; 
+}
+
+/*------------- ESTILOS TABLA -----------------*/
+.tabla th {
+padding: 5px;
+font-size: 16px;
+background-color: #83aec0;
+color: #FFFFFF;
+border-width: 1px;
+border-style: solid;
+border-color: #ffffff;
+font-family: Arial;
+text-transform: uppercase;
+}
+
+.tabla td {
+padding: 5px;
+border-width: 1px;
+border-style: solid;
+border-color: #ffffff;
+
+} 
+
+
+/*------------------------- MENU IZQUIERDA ----------------------------*/
+ #menu {
+	width: 200px;
+	margin: 0px 0px 0px 50px;
+}
+	
+#menu li a {
+
+  	voice-family: "\"}\"";  
+  	voice-family: inherit;
+  	height: 23px;
+	text-decoration: none;
+}	
+
+	
+#menu li a:link, #menu li a:visited {
+	color: #FFF;
+	display: block;
+	background:  url(../images/menu.gif);
+	padding: 4px 0 0 10px;
+}
+	
+#menu li a:hover {
+	color: #FFF;
+	background:  url(../images/menu.gif) 0 -32px;
+	padding: 6px 0 0 10px;
+}
+
+
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+/*------------- TABLA PARA INGRESAR DATOS  --------------*/
+
+.confirmar {
+    cursor:pointer;
+}
+
+table.hovertable {
+ font-family: verdana,arial,sans-serif;
+ font-size:15px;
+ color:#333333;
+ border-width: 1px;
+ border-color: #999999;
+ border-collapse: collapse;
+ }
+
+ table.hovertable th {
+ background-color:#c3dde0;
+ border-width: 1px;
+ padding: 5px;
+ border-style: solid;
+ border-color: #a9c6c9;
+ }
+ table.hovertable tr {
+ background-color:#BBE9EE;
+ }
+ table.hovertable td {
+ border-width: 1px;
+ padding: 4px;
+ border-style: solid;
+ border-color: #a9c6c9;
+ }
+
+ /*------ATRIBUTOS PARA LA TABLA DE CATALOGOS -------------------*/
+
+
+ table.hovertable1 {
+ font-family: verdana,arial,sans-serif;
+ font-size:12px;
+ color:#000000;
+ border-color: #999999;
+ border-collapse: collapse;
+ }
+
+table.hovertable1 th {
+ background-color:#CFCACB;
+ border-style: solid;
+ border-color: #a9c6c9;
+ }
+ table.hovertable1 tr {
+ background-color:#D9DBDC;
+ }
+ table.hovertable1 td {
+ border-width: 1px;
+ border-style: solid;
+ border-color: #CFCACB;
+ }
+
+
+/*-------------Estilos para los catalogos  --------------*/
+
+        .black_overlay{
+            display: none;
+            position: absolute;
+            top: 70%;
+            left: 23%;
+            width: 50%;
+            height: 65%;
+            background-color: black;
+            z-index:1001;
+            -moz-opacity: 0.2;
+            opacity:0.2;
+            filter: alpha(opacity=20);
+        }
+        .white_content {
+            display: none;
+            position: absolute;
+            top: 75%;
+            left: 30%;
+            width: 35%;
+            height: 50%;
+           padding: 5px;
+            border: 4px solid #827D7D;
+            background-color: #DFDCDC;
+            z-index:1002;
+            overflow: auto;
+
+            font-size:13px;
+            font-weight:bold;
+            margin:10px 0 10px 0;
+            
+        }
+        
+
+/* --------------- BOTONES --------------- */
+
+.button, .button:visited { /* botones genéricos */
+background: #222 url(http://sites.google.com/site/zavaletaster/Home/overlay.png) repeat-x;
+display: inline-block;
+padding: 5px 10px 6px;
+color: #FFF;
+text-decoration: none;
+-moz-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 1px solid rgba(0,0,0,0.25);
+position: relative;
+cursor:pointer;
+}
+
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+border: none;
+}
+
+.button:hover { /* el efecto hover */
+background-color: #111
+color: #FFF;
+}
+
+.button:active{ /* el efecto click */
+top: 1px;
+}
+
+/* botones pequeños */
+.small.button, .small.button:visited {
+font-size: 11px ;
+}
+
+/* botones medianos */
+.button, .button:visited,.medium.button, .medium.button:visited {
+font-size: 13px;
+font-weight: bold;
+line-height: 1;
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+}
+
+/* botones grandes */
+.large.button, .large.button:visited {
+font-size:14px;
+padding: 8px 14px 9px;
+}
+
+/* botones extra grandes */
+.super.button, .super.button:visited {
+font-size: 34px;
+padding: 8px 14px 9px;
+}
+
+.pink.button { background-color: #E22092; }
+.pink.button:hover{ background-color: #C81E82; }
+
+.green.button, .green.button:visited { background-color: #91BD09; }
+.green.button:hover{ background-color: #749A02; }
+
+.red.button, .red.button:visited { background-color: #E62727; }
+.red.button:hover{ background-color: #CF2525; }
+
+.orange.button, .orange.button:visited { background-color: #FF5C00; }
+.orange.button:hover{ background-color: #D45500; }
+
+.blue.button, .blue.button:visited { background-color: #2981E4; }
+.blue.button:hover{ background-color: #2575CF; }
+
+.yellow.button, .yellow.button:visited { background-color: #FFB515; }
+.yellow.button:hover{ background-color: #FC9200; }
+
+/*------------------------------------------------------------------------- */             

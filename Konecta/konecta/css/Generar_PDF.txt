@@ -1,0 +1,30 @@
+DISEÑO DE MENUS GRATIS
+https://www.cssmenumaker.com/
+
+
+Generar pdf en php
+
+https://elticus.com/?contenido=94&allmsg
+
+LIBRERIA FPDF
+https://www.youtube.com/watch?v=azzAB-qNjAQ
+
+Creando PDF con PHP y My SQL Parte 01
+
+https://www.youtube.com/watch?v=2_VmKXzEZYE
+
+https://www.youtube.com/watch?v=BJluaLErono
+https://www.youtube.com/watch?v=7UeBQJPmhOE&NR=1&feature=endscreen
+https://www.youtube.com/watch?v=9gCOIktPBQM&NR=1&feature=endscreen
+
+https://www.youtube.com/watch?v=Ru15XcNjKXg
+
+
+DESARROLLO WEB
+
+https://www.desarrolloweb.com/manuales/manual-fpdf.html
+
+
+GENERAR ARCHIVOS EN EXCEL
+
+https://comunidad.fware.pro/dev/php/como-crear-verdaderos-archivos-de-excel-usando-phpexcel/
